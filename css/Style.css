@@ -1,0 +1,103 @@
+.left {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    /* border: 2px solid red; */
+    color: white;
+    display: inline-block;
+  }
+  .left img {
+    /* padding-left: p; */
+    width: 70px;
+    filter: invert(100%);
+    margin-left: 16px;
+  }
+  .left div {
+    text-align: center;
+    color: rgb(188, 175, 218);
+    padding-top: 0px;
+    line-height: 18px;
+    font-family: "Baloo 2", cursive;
+    font-size: 21px;
+  }
+  .right {
+    position: absolute;
+    right: 19px;
+    top: 53px;
+    /* border: 2px solid red; */
+    color: white;
+    display: inline-block;
+  }
+  .center {
+    /* border: 1px solid red; */
+    color: white;
+    display: block;
+    width: 43%;
+    margin: 52px auto;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+    font-size: 22px;
+    /* font-family: 'Times New Roman', Times, serif; */
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+  }
+  .navbar li a:hover,
+  .navbar li a:active {
+    text-decoration: underline;
+    color: #b7d0cb;
+  }
+  .btn {
+    margin: 13px 4px;
+    padding: 4px 14px;
+    border: 2px solid #e1a7a7;
+    border-radius: 6px;
+    font-size: 14px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: "Baloo 2", cursive;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: rgb(47, 45, 45);
+  }
+  .container {
+    border: 2px solid white;
+    color: white;
+    margin: 114px 75px;
+    padding: 75px 75px;
+    width: 36%;
+    border-radius: 20px;
+  }
+  .form-group input {
+    text-align: center;
+    display: block;
+    width: 262px;
+    padding: 4px;
+    margin: 10px auto;
+    border: 2px solid black;
+    font-family: "Baloo 2", cursive;
+    font-size: 15px;
+    border-radius: 8px;
+  }
+  .containe h1 {
+    text-align: center;
+    font-family: "Baloo 2", cursive;
+  }
+  .container button {
+    display: inline-block;
+    width: 36%;
+    margin: 10px 23px;
+    padding: 6px 8px;
+  }
+  .footer {
+    color: #bab5b5;
+    text-align: center;
+  }
